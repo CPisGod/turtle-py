@@ -16,29 +16,26 @@ b = 0
 jugi = 17
 delta = 15
 
+def a():
+    t.pencolor(r,g,b)
+    t.forward(2)
+
 while True:
     for j in range(jugi):
         g += delta
-        t.pencolor(r,g,b)
-        t.forward(1)
+        a()
     for j in range(jugi):
         r -= delta
-        t.pencolor(r,g,b)
-        t.forward(1)
+        a()
     for j in range(jugi):
         b += delta
-        t.pencolor(r,g,b)
-        t.forward(1)
+        a()
     for j in range(jugi):
         g -= delta
-        t.pencolor(r,g,b)
-        t.forward(1)
+        a()
     for j in range(jugi):
         r += delta
-        t.pencolor(r,g,b)
-        t.forward(1)
+        a()
     for j in range(jugi):
         b -= delta
-        t.pencolor(r,g,b)
-        t.forward(1)
-    
+        a()
